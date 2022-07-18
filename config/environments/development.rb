@@ -28,6 +28,7 @@ Rails.application.configure do
     config.action_controller.perform_caching = false
 
     config.cache_store = :null_store
+    config.hosts << "65ed4869557d405fa44a3a47a9741dcc.vfs.cloud9.ap-northeast-1.amazonaws.com"
   end
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
